@@ -14,8 +14,8 @@ The code presented in this guide did not work for me, so I made my own version.
 Versions:\
 **v4** - deprecated old *(This version is easier to understand how the script works. yep, this is dogwater code)*\
 **v5** - simplified new.\
-**v6** - *v5* with exponential moving average
-depending on the keypad, version 6 can either help or make things worse.
+**v6** - *v5* with exponential moving average\
+Depending on the keypad, version 6 can either help or make things worse.
 Also included is a "test" sketch for testing values ​​for manual tuning.
 # Constants that should be specified
 |     Variable     |                                 Meaning                                          |
