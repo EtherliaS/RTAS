@@ -1,5 +1,8 @@
 #include <Keyboard.h>
-
+/*
+ * Script for using rapid trigger on 2 button keypad.
+ * Can be expanded to any number of buttons, depends on your arduino
+*/
 // - CONSTS -
 // pins and keyboard codes
 const uint8_t pins[] = {A1, A2};

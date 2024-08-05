@@ -11,4 +11,7 @@ The code presented in this guide did not work for me, so I made my own version.
 * 2x hall sensors SS49E (you can use more accurate sensors, but I have not tried)
 * 3D printed case and keycaps
 # Code
-There are two versions: **v4** - stable old, **v5** - simplified new. Also included is a sketch for testing values ​​for manual tuning.
+Versions:\
+**v4** - stable old\
+**v5** - simplified new.\
+Also included is a sketch for testing values ​​for manual tuning.
