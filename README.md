@@ -12,6 +12,18 @@ The code presented in this guide did not work for me, so I made my own version.
 * 3D printed case and keycaps
 # Code
 Versions:\
-**v4** - stable old\
+**v4** - deprecated old *(This version is easier to understand how the script works. yep, this is dogwater code)*\
 **v5** - simplified new.\
-Also included is a sketch for testing values ​​for manual tuning.
+**v6** - *v5* with exponential moving average
+depending on the keypad, version 6 can either help or make things worse.
+Also included is a "test" sketch for testing values ​​for manual tuning.
+# Constants that should be specified
+|     Variable     |                                 Meaning                                          |
+|------------------|----------------------------------------------------------------------------------|
+| `pins`           | Pins on your arduino                                                             |
+| `keyCodes`       | Keycodes on kb (direct relationship with pins array pins[i] => keyCodes[i])      |
+| `pinMax`         | Maximum pin values, needed only at startup (does not affect the work in any way) |
+| `activatePoints` | Points below which the press is counted                                          |
+| `releasePoints`  | Points of unconditional release                                                  |
+| `pressDelay`     | Minimal delay between taps                                                       |
+| `alpha`          | Smoothing factor for EMA (only in **v6**) must be 0<alpha<1                      |
